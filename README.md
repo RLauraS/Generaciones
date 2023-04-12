@@ -11,7 +11,8 @@ Sus propiedades son:
 Los métodos que se debe poder utilizar  son:
 
 mostrarGeneracion: este método debe mostrar un mensaje indicando a qué generación pertenece la persona creada y cual es el rasgo característico de esta generación.
-Para realizar este método tener en cuenta la siguiente tabla de generaciones
+
+Para realizar este método tener en cuenta la siguiente tabla de generaciones(se adjunta imagen dentro del proyecto)
 
 esMayorDeEdad: indica si es mayor de edad, devuelve un mensaje indicando que la persona es mayor de edad.
 
