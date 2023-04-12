@@ -26,7 +26,7 @@
     <header>
       <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Generaciones</a>
         </div>
       </nav>
     </header>
@@ -37,7 +37,7 @@
       </section>
       <form class="container bg-black text-bg-dark my-5">
         <div class="mb-3">
-          <label for="Nombre" class="form-label">Nombre</label>
+          <label for="nombre" class="form-label">Nombre</label>
           <input
             type="text"
             class="form-control"
@@ -50,17 +50,41 @@
           <div id="name" class="form-text"></div>
         </div>
         <div class="mb-3">
+          <label for="edad" class="form-label">Edad</label>
+          <input
+            type="number"
+            class="form-control"
+            id="edad"
+            aria-describedby="edad"
+            required
+            minlength="1"
+            maxlength="3"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">DNI</label>
+          <input
+            type="number"
+            class="form-control"
+            id="dni"
+            aria-describedby="dni"
+            required
+            minlength="8"
+            maxlength="8"
+          />
+        </div>
+        <div class="mb-3">
           <label for="genero" class="form-label">Género:</label>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="genero" id="hombre" value="H">
+            <input class="form-check-input" type="radio" name="sexo" id="hombre" value="H">
             <label class="form-check-label" for="hombre">Hombre</label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="genero" id="mujer" value="M">
+            <input class="form-check-input" type="radio" name="sexo" id="mujer" value="M">
             <label class="form-check-label" for="mujer">Mujer</label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="genero" id="nb" value="NB">
+            <input class="form-check-input" type="radio" name="sexo" id="nb" value="NB">
             <label class="form-check-label" for="nb">No Binarie</label>
           </div>
         </div>
@@ -99,7 +123,7 @@
           <input
             type="number"
             class="form-control"
-            id="nacimiento"
+            id="anio-nacimiento"
             aria-describedby="anio"
             required
             minlength="4"
